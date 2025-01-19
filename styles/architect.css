@@ -49,6 +49,11 @@ main {
 main > section {
     margin-top: 130px;
 }
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 /* header styles */
 
 
@@ -112,6 +117,7 @@ main > section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    margin-left: 70px;
 }
 
 .our-features{
@@ -119,10 +125,7 @@ main > section {
     max-width: 530px;
 }
 
-.feature-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 
 .feature-description {
     font-weight: 400;
@@ -148,5 +151,17 @@ main > section {
     }
     .our-features {
         margin-left: 15px;
+    }
+}
+
+/* medium size device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  
+    .teams {
+        flex-direction: column;
+    }
+    .team-img-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
