@@ -180,7 +180,9 @@ main > section {
     font-weight: 700;
 }
 
- 
+ .features img {
+    width: 100%;
+ }
 /* some facts styles */
  
  
@@ -233,7 +235,7 @@ main > section {
 
 /* footer section styles */
 footer {
-    max-width: 1440px;
+    max-width: 1300px;
     background-color: #FFF4E7;
     text-align: center;
     padding: 20px;
@@ -241,7 +243,9 @@ footer {
     margin: 0 auto;
     margin-top: 130px;
     margin-bottom: 216px;
+    margin-left: 220px;
 }
+ 
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -266,6 +270,14 @@ footer {
     .our-features {
         margin-left: 15px;
     }
+    #Experience-badge {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    footer{
+        margin-left: 20px;
+    }
 }
 
 /* medium size device */
@@ -283,5 +295,9 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+    footer{
+        margin-left: 20px;
+        width: calc(100% - 10%); 
     }
 }
