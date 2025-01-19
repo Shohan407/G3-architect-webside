@@ -167,8 +167,20 @@ main > section {
     margin-bottom: 0px;
 }
 
- 
+ #Experience-badge {
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+ }
 
+#Experience-year {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+ 
 /* some facts styles */
  
  
@@ -218,11 +230,24 @@ main > section {
 .sponsor-companies img {
     filter: grayscale(100%);
 }
+
+/* footer section styles */
+footer {
+    max-width: 1440px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 216px;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links, 
-    .teams {
+    .teams,
+    .features {
         flex-direction: column;
     }
     .team-img-container, 
